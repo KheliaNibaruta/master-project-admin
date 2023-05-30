@@ -13,7 +13,7 @@ input:focus, textarea:focus{
 }
 
 h1{
-    @apply text-blue-400 mb-4 text-xl;
+    @apply text-blue-900 mb-4 text-xl;
 }
 
 label{
