@@ -36,7 +36,7 @@ export default async function handle(req,res) {
       ACL: 'public-read',
       ContentType: mime.lookup(file.path),
     }));
-    const link = `https://${bucketName}.s3.amazonaws.com/${newFilename}`;
+    const link = `https://${bucketName}.lh3.googleusercontent.com/${newFilename}`;
     links.push(link);
   }
   return res.json({links});
